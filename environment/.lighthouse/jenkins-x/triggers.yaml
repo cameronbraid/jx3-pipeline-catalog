@@ -6,7 +6,7 @@ spec:
     context: "verify"
     always_run: true
     optional: false
-    trigger: "/test"
+    trigger: "(?m)^\\/(re)?test"
     rerun_command: "/retest"
     source: "pullrequest.yaml"
     queries:
